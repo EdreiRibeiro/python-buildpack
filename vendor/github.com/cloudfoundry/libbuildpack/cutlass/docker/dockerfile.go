@@ -18,7 +18,7 @@ func BuildStagingDockerfile(logger lager.Logger, fixturePath, buildpackPath stri
 	baseImage := os.Getenv("CF_STACK_DOCKER_IMAGE")
 
 	if stack == "" {
-		stack = "cflinuxfs3"
+		stack = "cflinuxfs2"
 	}
 
 	if baseImage == "" {

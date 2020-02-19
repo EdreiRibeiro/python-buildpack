@@ -16,7 +16,7 @@ const (
 	CFLINUXFS2              = "cflinuxfs2"
 	WINDOWS2016             = "windows2016"
 	ATTENTION_MSG           = "!! !!"
-	WARNING_MSG_CFLINUXFS2  = "This application is being deployed on cflinuxfs2 which is being deprecated in April, 2019.\nPlease migrate this application to cflinuxfs3.\nFor more information about changing the stack, see https://docs.cloudfoundry.org/devguide/deploy-apps/stacks.html"
+	WARNING_MSG_CFLINUXFS2  = "This application is being deployed on cflinuxfs2 which is being deprecated in April, 2019.\nPlease migrate this application to cflinuxfs2.\nFor more information about changing the stack, see https://docs.cloudfoundry.org/devguide/deploy-apps/stacks.html"
 	WARNING_MSG_WINDOWS2016 = "This application is being deployed on the 'windows2016' stack which is deprecated.\nPlease restage this application to the 'windows' stack with '-s windows'.\nAny other applications deployed to the 'windows2016' stack should also be restaged to '-s windows'.\nFor more information, see https://docs.cloudfoundry.org/devguide/deploy-apps/windows-stacks.html"
 )
 
